@@ -1,18 +1,6 @@
-package com.nightstalkermod.java;
-package com.nightstalker.nightstalker;
+package com.example.examplemod;
 
-import net.minecraftforge.fml.common.Mod;
-
-@Mod(NightStalkerMod.MOD_ID)
-public class NightStalkerMod {
-
-    public static final String MOD_ID = "nightstalker";
-
-    public NightStalkerMod() {
-        System.out.println("Night Stalker loaded!");
-    }
-}
-
+import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -39,7 +27,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ExampleMod.MODID)
