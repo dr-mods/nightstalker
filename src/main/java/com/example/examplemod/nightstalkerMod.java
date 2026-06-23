@@ -1,4 +1,17 @@
 package com.nightstalkermod.java;
+package com.nightstalker.nightstalker;
+
+import net.minecraftforge.fml.common.Mod;
+
+@Mod(NightStalkerMod.MOD_ID)
+public class NightStalkerMod {
+
+    public static final String MOD_ID = "nightstalker";
+
+    public NightStalkerMod() {
+        System.out.println("Night Stalker loaded!");
+    }
+}
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
