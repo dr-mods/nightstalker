@@ -32,7 +32,7 @@ displayName="${mod_name}" #mandatory
 # A text field displayed in the mod UI
 #credits="" #optional
 # A text field displayed in the mod UI
-authors="${dr-mods}" #optional
+authors="{dr-mods}" #optional
 # Display Test controls the display for your mod in the server connection screen
 # MATCH_VERSION means that your mod will cause a red X if the versions on client and server differ. This is the default behaviour and should be what you choose if you have server and client elements to your mod.
 # IGNORE_SERVER_VERSION means that your mod will not cause a red X if it's present on the server but not on the client. This is what you should use if you're a server only mod.
@@ -48,7 +48,8 @@ authors="${dr-mods}" #optional
 #accessTransformers = []
 
 # The description text for the mod (multi line!) (#mandatory)
-description=''' night
+description=''' 
+night stalker is a horror survival mod.
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.${mod_id}]] #optional
     # the modid of the dependency
